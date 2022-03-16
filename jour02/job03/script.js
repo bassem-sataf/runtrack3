@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function loader(){
 
     function addone()
     {
-        var btn = document.querySelector('#button');
+        var btn = document.getElementById('button');
         var compteur = document.getElementById('compteur')
         var counter = 0;
 

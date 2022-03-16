@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function loader(){
         })
     }
     
-    citation();
-
+   
+ citation();
 })
     

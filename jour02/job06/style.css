@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    background-color: #336699;
+    display: none;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/* F1 */
+.f1{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 30px;
+    transform: rotate(90deg);
+    animation: course 8s infinite linear;
+    filter: drop-shadow(8px 2px 3px rgb(51, 51, 51));
+    z-index: 1;
+}
+@keyframes course{
+    0%{
+        top:5px;
+        left: 30px;
+        transform: rotate(180deg);
+    }
+    10%{
+        top:5px;
+        left: 520px;
+        transform: rotate(180deg);
+    }
+    20%{
+        top:5px;
+        left: 1040px;
+        transform: rotate(160deg);
+    }
+    30%{
+        top: -110px;
+        left: 1325px;
+        transform: rotate(270deg);
+    }
+    40%{
+        top:210px;
+        left: 1370px;
+        transform: rotate(320deg);
+    }
+    50%{
+        top:420px;
+        left: 1160px;
+        transform: rotate(360deg);
+    }
+    60%{
+        top:485px;
+        left:710px;
+        transform: rotate(400deg);
+    }
+    70%{
+        top:400px;
+        left:290px;
+        transform: rotate(420deg);
+    }
+    80%{
+        top:270px;
+        left:50px;
+        transform: rotate(470deg);
+    }
+    90%{
+        top:220px;
+        left: 40px;
+        transform: rotate(90deg);
+    }
+    100%{
+        top:5px;
+        left:30px;
+        transform: rotate(180deg);
+    }
+}

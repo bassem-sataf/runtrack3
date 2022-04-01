@@ -1,9 +1,12 @@
 $(document).ready(function(){
 
-    $().click(function (e) { 
-        e.preventDefault();
-        
+    $("#button").click(function (){
+        $('p').css('display', 'none')
     });
+    $("#button + button").click(function (){
+        $('p').css('display', 'block')
+    }); 
+
 
 })
     

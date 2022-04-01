@@ -1,0 +1,15 @@
+    body{
+    background: #88c1d0;
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px){
+    body{
+        background: #ffca4b;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1680px){
+    body{
+        background: #275fa0;
+    }
+}
